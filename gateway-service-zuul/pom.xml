@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.jack</groupId>
+    <artifactId>gateway-service-zuul</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>gateway-service-zuul</name>
+    <description>Gateway-service-zuul project for Spring Boot</description>
+    <modules>
+        <module>gateway-service-zuul-simple</module>
+        <module>spring-cloud-zuul-producer</module>
+        <module>gateway-service-zuul-eureka</module>
+        <module>spring-cloud-zuul-eureka-server</module>
+    </modules>
+</project>
